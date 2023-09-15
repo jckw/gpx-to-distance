@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gpx-to-distance"
+version = "0.1.0"
+description = ""
+authors = ["Jack W <jackweatherilt@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.3"
+gpxpy = "^1.5.0"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.9.1"
+pre-commit = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
